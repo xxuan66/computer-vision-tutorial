@@ -284,7 +284,6 @@ pip install -r requirements.txt
 ## 📧 联系方式
 
 - **GitHub Issues:** [提问](https://github.com/xxuan66/computer-vision-tutorial/issues)
-- **邮箱:** xxx@example.com
 
 ---
 
