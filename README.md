@@ -1,6 +1,6 @@
 # 🖼️ 计算机视觉从入门到实战
 
-> 系统化的计算机视觉学习教程，涵盖图像处理、目标检测、图像分割、图像生成等核心领域
+> 系统化的计算机视觉学习教程，涵盖图像处理、目标检测、图像生成、视频理解等核心领域
 
 [![Stars](https://img.shields.io/github/stars/xxuan66/computer-vision-tutorial)](https://github.com/xxuan66/computer-vision-tutorial/stargazers)
 [![Issues](https://img.shields.io/github/issues/xxuan66/computer-vision-tutorial)](https://github.com/xxuan66/computer-vision-tutorial/issues)
@@ -65,12 +65,16 @@
 
 **目标：** 前沿技术探索
 
-| 主题 | 内容 |
-|------|------|
-| 图像生成 | GAN、Diffusion Model |
-| 3D 视觉 | 点云处理、NeRF |
-| 视频理解 | 动作识别、视频分割 |
-| 多模态 | CLIP、DALL-E、Stable Diffusion |
+| 章节 | 内容 | 热点 |
+|------|------|------|
+| 16 | 图像生成基础（GAN） | 🔥 |
+| 17 | Diffusion Model 详解 | 🔥🔥 |
+| 18 | 视频生成与处理 | 🔥🔥 |
+| 19 | 3D 视觉（NeRF、高斯泼溅） | 🔥 |
+| 20 | 多模态大模型（CLIP、DALL-E） | 🔥🔥🔥 |
+| 21 | AIGC 与内容创作 | 🔥🔥🔥 |
+| 22 | 边缘计算与部署优化 | 🔥 |
+| 23 | 前沿技术展望 | 🔥 |
 
 ---
 
@@ -103,9 +107,14 @@ computer-vision-tutorial/
 │   ├── 图像分割工具/
 │   └── 人脸识别门禁/
 ├── 05-高级篇/
-│   ├── 图像生成.md
-│   ├── 3D视觉.md
-│   └── 多模态模型.md
+│   ├── 16-图像生成基础.md
+│   ├── 17-DiffusionModel详解.md
+│   ├── 18-视频生成与处理.md
+│   ├── 19-3D视觉.md
+│   ├── 20-多模态大模型.md
+│   ├── 21-AIGC与内容创作.md
+│   ├── 22-边缘计算与部署.md
+│   └── 23-前沿技术展望.md
 ├── code/                          # 代码示例
 │   ├── opencv/
 │   ├── pytorch/
@@ -164,6 +173,15 @@ pip install -r requirements.txt
 | **图像分割** | U-Net, Mask R-CNN | 像素级分类 |
 | **图像生成** | GAN, Diffusion | 图像合成 |
 
+### 前沿技术
+
+| 技术 | 代表作品 | 应用场景 |
+|------|---------|---------|
+| **Diffusion** | Stable Diffusion, DALL-E 3 | 文生图 |
+| **视频生成** | Sora, Video Diffusion | 文生视频 |
+| **3D 视觉** | NeRF, 3D Gaussian Splatting | 3D 重建 |
+| **多模态** | CLIP, GPT-4V | 图文理解 |
+
 ---
 
 ## 🎓 学习资源
@@ -188,6 +206,7 @@ pip install -r requirements.txt
 | PyTorch | 深度学习 | [官网](https://pytorch.org/) |
 | TensorFlow | 深度学习 | [官网](https://tensorflow.org/) |
 | Albumentations | 数据增强 | [GitHub](https://github.com/albumentations-team) |
+| Diffusers | 扩散模型 | [Hugging Face](https://huggingface.co/docs/diffusers) |
 
 ### 公开数据集
 
@@ -197,6 +216,7 @@ pip install -r requirements.txt
 | COCO | 33 万 | 目标检测 | [链接](https://cocodataset.org/) |
 | Pascal VOC | 2 万 | 目标检测 | [链接](http://host.robots.ox.ac.uk/pascal/VOC/) |
 | CelebA | 20 万 | 人脸属性 | [链接](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) |
+| LAION | 50 亿 + | 图文对 | [链接](https://laion.ai/) |
 
 ---
 
@@ -219,7 +239,7 @@ pip install -r requirements.txt
 | 基础 | 1-2 月 | 图像处理基础 |
 | 进阶 | 3-4 月 | 深度学习 CV |
 | 实战 | 5 月 | 完整项目 |
-| 提升 | 6 月 | 前沿技术、论文阅读 |
+| 前沿 | 6 月 | GAN/Diffusion/多模态 |
 
 ---
 
@@ -249,9 +269,9 @@ pip install -r requirements.txt
 
 ### 2026-03-12
 - ✅ 创建仓库
-- ✅ 完成整体框架设计
+- ✅ 完成整体框架设计（27 章）
 - ✅ 添加入门篇内容
-- ✅ 添加基础篇内容
+- ✅ 扩展高级篇（图像生成、视频生成、多模态）
 
 ### TODO
 - [ ] 完成入门篇详细教程
