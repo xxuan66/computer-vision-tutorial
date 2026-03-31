@@ -1,6 +1,6 @@
 # 第四章：Python+OpenCV 基础
 
-> 掌握 OpenCV 的基本操作，开始图像处理之旅
+> 先把 OpenCV 最常用的基本操作跑通，再进入后面的图像处理主题
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 4.1.1 什么是 OpenCV
 
-**OpenCV**（Open Source Computer Vision Library）是一个开源的计算机视觉库。
+**OpenCV**（Open Source Computer Vision Library）是一个开源的计算机视觉基础库。
 
 **特点：**
 - ✅ 跨平台（Windows、Linux、macOS）
