@@ -1,6 +1,6 @@
 # 第二十一章：Diffusion Model 详解
 
-> 掌握扩散模型原理，学习 Stable Diffusion、ControlNet 等前沿技术
+> 理解扩散模型为什么成为当前视觉生成领域的重要主线
 
 ---
 
